@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel Renault | Engineering Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f8fafc; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans p-4 md:p-8 selection:bg-blue-200">
+
+    <div class="max-w-7xl mx-auto">
+        <!-- BENTO GRID CONTAINER -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+            <!-- HEADER / INTRO (Span 3 columns) -->
+            <div class="lg:col-span-3 bg-white rounded-[2rem] p-8 md:p-12 shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col justify-center items-start relative overflow-hidden">
+                <!-- Background decorative blob -->
+                <div class="absolute -top-24 -right-24 w-64 h-64 bg-blue-50 rounded-full blur-3xl opacity-60 pointer-events-none"></div>
+
+                <div class="flex flex-col md:flex-row md:items-center justify-between w-full mb-8">
+                    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900">
+                        Axel Renault
+                    </h1>
+                    <img src="Ensta-logotype-IP-Paris-CMJN-Horizontal-Bleu.jpg" alt="ENSTA IP Paris Logo" class="h-16 md:h-20 object-contain mt-6 md:mt-0">
+                </div>
+
+                <h2 class="text-2xl md:text-3xl font-medium text-slate-500 mb-6">
+                    Engineering Student at ENSTA <br> 
+                    <span class="text-blue-600">Pyrotechnic Systems & Energetic Materials</span>
+                </h2>
+                <p class="text-slate-600 text-lg leading-relaxed mb-10 max-w-3xl">
+                    I combine mechanical structural design (CAD/RDM) with testing instrumentation (Python, 3D measurement) and control systems. 
+                    Currently seeking a 3-4 month Assistant Engineer internship abroad in the aerospace sector (propulsion, pyromechanics, testing, and integration).
+                </p>
+                <div class="flex flex-wrap gap-4 z-10">
+                    <a href="mailto:axel.renault@ensta.fr" class="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-600 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-blue-500/30">
+                        Contact Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/axel-renault-380441302/" target="_blank" class="bg-white text-slate-900 px-8 py-4 rounded-full font-semibold border border-slate-200 hover:bg-slate-50 hover:-translate-y-1 transition-all duration-300 shadow-sm">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <!-- SKILLS & TOOLS (Dark Accent) -->
+            <div class="lg:col-span-1 bg-slate-900 text-white rounded-[2rem] p-8 shadow-sm hover:shadow-lg transition-shadow flex flex-col justify-center relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 rounded-bl-full blur-2xl"></div>
+                
+                <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                    <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    Technical Stack
+                </h3>
+                <div class="flex flex-wrap gap-2 mb-10">
+                    <span class="px-4 py-2 bg-white/10 rounded-xl text-sm font-medium backdrop-blur-sm border border-white/5">Python</span>
+                    <span class="px-4 py-2 bg-white/10 rounded-xl text-sm font-medium backdrop-blur-sm border border-white/5">Catia</span>
+                    <span class="px-4 py-2 bg-white/10 rounded-xl text-sm font-medium backdrop-blur-sm border border-white/5">Solidworks</span>
+                    <span class="px-4 py-2 bg-white/10 rounded-xl text-sm font-medium backdrop-blur-sm border border-white/5">Abaqus</span>
+                    <span class="px-4 py-2 bg-white/10 rounded-xl text-sm font-medium backdrop-blur-sm border border-white/5">Matlab</span>
+                    <span class="px-4 py-2 bg-white/10 rounded-xl text-sm font-medium backdrop-blur-sm border border-white/5">Control Theory</span>
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-4">Languages</h3>
+                <div class="space-y-2">
+                    <p class="text-slate-300 flex justify-between border-b border-white/10 pb-2"><span>English</span> <span class="font-semibold text-blue-400">B2 (TOEIC 830)</span></p>
+                    <p class="text-slate-300 flex justify-between pt-2"><span>Spanish</span> <span class="font-semibold text-blue-400">A2</span></p>
+                </div>
+            </div>
+
+            <!-- PROJECT 1: SHIP STRUCTURE -->
+            <div class="lg:col-span-2 bg-white rounded-[2rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-100 flex flex-col overflow-hidden group">
+                <!-- Image Gallery -->
+                <div class="h-64 flex gap-1 bg-slate-100">
+                    <div class="w-2/3 relative overflow-hidden">
+                        <img src="leica-scanner.jpg" alt="Leica Scanner" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider text-slate-900 shadow-sm z-10">
+                            Structural Engineering
+                        </div>
+                    </div>
+                    <div class="w-1/3 flex flex-col gap-1">
+                        <div class="h-1/2 relative overflow-hidden">
+                            <img src="vrac2.jpeg" alt="Ship Section" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="h-1/2 relative overflow-hidden bg-slate-900">
+                            <img src="nuage_brut.png" alt="Point Cloud" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90">
+                        </div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="p-8 flex-grow flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-4">Naval Bulk Carrier Design</h3>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            RDM sizing of a reinforced hull (Euler-Bernoulli, Von Mises criterion) fully validated experimentally. I characterized the Young's modulus of Depron using a 3-point bending test instrumented with a <strong>Leica HDS 6200 3D laser scanner</strong>.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">Python (Least Squares)</span>
+                        <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">Catia</span>
+                        <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">Laser Metrology</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 2: DRONE BOAT -->
+            <div class="lg:col-span-2 bg-white rounded-[2rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-100 flex flex-col overflow-hidden group">
+                <!-- Image -->
+                <div class="h-64 relative overflow-hidden bg-slate-100">
+                    <img src="drone2026.jpg" alt="Autonomous Drone Boat" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute top-4 left-4 bg-white/95 backdrop-blur px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider text-slate-900 shadow-sm">
+                        Robotics & Control
+                    </div>
+                    <!-- YouTube Link -->
+                    <a href="https://www.youtube.com/watch?v=JXFSxM-2_tU" target="_blank" class="absolute top-4 right-4 bg-red-600/90 backdrop-blur text-white p-3 rounded-full shadow-lg hover:bg-red-600 hover:scale-110 transition-all duration-300 flex items-center justify-center z-10" title="Watch on YouTube">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg>
+                    </a>
+                </div>
+                <!-- Content -->
+                <div class="p-8 flex-grow flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-4">Autonomous Drone Boat (DD-Boat)</h3>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Developed a navigation and control system for an Autonomous Surface Vehicle (ASV). 
+                            <strong>Key milestones:</strong> Custom teleoperation simulator, GPS trajectory mapping (Google Earth), 
+                            magnetometer calibration (ellipsoid correction & heading estimation via TCP/IP Python Sockets), and 
+                            implementation of a control law for waypoint navigation using differential thrust.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">Control Theory</span>
+                        <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">Sockets</span>
+                        <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">Sensor Calibration</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 3: WINDION -->
+            <div class="lg:col-span-2 bg-white rounded-[2rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-100 flex flex-col overflow-hidden group">
+                <!-- Image Gallery -->
+                <div class="h-56 flex gap-1 bg-slate-100">
+                    <div class="w-1/2 relative overflow-hidden">
+                        <img src="eol-float.jpg" alt="Floating Wind Turbine" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider text-slate-900 shadow-sm z-10">
+                            Mechanical Design
+                        </div>
+                    </div>
+                    <div class="w-1/2 relative overflow-hidden bg-slate-200">
+                        <img src="bouee.jpg" alt="Docking Buoy CAD" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="p-8 flex-grow flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold text-slate-900">Windion: Offshore Docking</h3>
+                            <img src="logo-windion.svg" alt="Windion Logo" class="h-8 object-contain">
+                        </div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Designed a connector deployment system for floating offshore wind turbines (Student Project for Windion). 
+                            <strong>Key challenges solved:</strong> Swell compensation, stress reduction, and maintaining a dry electrical interface. Developed multiple kinematic architectures and finalized the design using a rigorous multi-criteria decision matrix.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm font-semibold text-slate-600 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">CAD</span>
+                        <span class="text-sm font-semibold text-slate-600 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">Kinematics</span>
+                        <span class="text-sm font-semibold text-slate-600 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">Decision Matrix</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 4: BIOMECHANICAL ENERGY -->
+            <div class="lg:col-span-2 bg-white rounded-[2rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-100 flex flex-col overflow-hidden group">
+                <!-- Image Gallery -->
+                <div class="h-56 flex gap-1 bg-slate-100">
+                    <div class="w-1/2 relative overflow-hidden">
+                        <img src="semelle-piezo.jpeg" alt="Piezoelectric sole" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider text-slate-900 shadow-sm z-10">
+                            Prototyping
+                        </div>
+                    </div>
+                    <div class="w-1/2 flex flex-col gap-1">
+                        <div class="h-1/2 relative overflow-hidden">
+                            <img src="electro.jpeg" alt="Electromagnetic converter" class="w-full h-full object-cover object-bottom group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="h-1/2 relative overflow-hidden">
+                            <img src="peltier.jpeg" alt="Peltier module" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="p-8 flex-grow flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-4">Biomechanical Energy Harvesting</h3>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Comparative study of energy harvesting technologies (Peltier module, electromagnetic converter, piezoelectric). 
+                            Designed, soldered and prototyped a custom piezoelectric shoe sole capable of generating 0.2 mW during a run.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm font-semibold text-slate-600 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">Thermodynamics</span>
+                        <span class="text-sm font-semibold text-slate-600 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">Electronics</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 5: SQUASH THERMODYNAMICS -->
+            <div class="lg:col-span-2 bg-slate-900 text-white rounded-[2rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-800 flex flex-col sm:flex-row overflow-hidden group">
+                <div class="w-full sm:w-2/5 h-48 sm:h-auto flex sm:flex-col gap-1 bg-slate-800 shrink-0">
+                    <div class="w-1/2 sm:w-full h-full sm:h-1/2 relative overflow-hidden">
+                        <img src="machine-irdl.jpg" alt="Instron tensile machine" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="w-1/2 sm:w-full h-full sm:h-1/2 relative overflow-hidden">
+                        <img src="thermique.jpeg" alt="Thermal analysis" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                </div>
+                <div class="p-8 flex flex-col justify-center w-full sm:w-3/5 relative">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl pointer-events-none"></div>
+                    <h3 class="text-2xl font-bold mb-4">Thermal Elasticity Analysis</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">
+                        Advanced mechanical testing on squash balls (traction, compression, restitution) conducted at the <strong>IRDL — CNRS UMR 6027</strong> research center using an Instron machine and FLIR thermal imaging.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm font-medium bg-white/10 px-3 py-1 rounded-lg border border-white/5">Materials Science</span>
+                        <span class="text-sm font-medium bg-white/10 px-3 py-1 rounded-lg border border-white/5">Testing</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEADERSHIP / EXTRACURRICULAR -->
+            <div class="lg:col-span-2 bg-blue-600 text-white rounded-[2rem] p-8 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+                <!-- Abstract waves background -->
+                <svg class="absolute bottom-0 right-0 w-64 h-64 opacity-20 pointer-events-none transform translate-x-10 translate-y-10" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#FFFFFF" d="M42.7,-73.4C55.9,-66.5,67.6,-56.3,76.5,-43.8C85.4,-31.3,91.5,-15.6,90.4,-0.6C89.3,14.4,81.1,28.8,71.2,40.8C61.3,52.8,49.8,62.4,36.5,70.5C23.2,78.6,8.1,85.2,-6.4,86.4C-20.9,87.6,-34.7,83.4,-47.5,75.4C-60.3,67.4,-72,55.6,-78.9,41.5C-85.8,27.4,-87.9,11,-85.4,-4.7C-82.9,-20.4,-75.8,-35.4,-65.4,-46.8C-55,-58.2,-41.3,-66,-27.6,-71.4C-13.9,-76.8,0.2,-79.8,14.6,-77.3C29,-74.8,42.7,-73.4,42.7,-73.4Z" transform="translate(100 100)" />
+                </svg>
+
+                <h3 class="text-2xl font-bold mb-6">Leadership & Beyond</h3>
+                <ul class="space-y-4 text-blue-50">
+                    <li class="flex items-start gap-4">
+                        <div class="bg-white/20 p-2 rounded-xl text-xl backdrop-blur-sm">🏐</div>
+                        <div>
+                            <strong class="text-white block text-lg">President, ENSTA Men's Volleyball</strong>
+                            <span class="opacity-90">N2 Player, Brittany Champion (2023 & 2025).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-white/20 p-2 rounded-xl text-xl backdrop-blur-sm">🚁</div>
+                        <div>
+                            <strong class="text-white block text-lg">Drone Piloting</strong>
+                            <span class="opacity-90">Member of ENSTA Drone Club (DJI).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-white/20 p-2 rounded-xl text-xl backdrop-blur-sm">🌍</div>
+                        <div>
+                            <strong class="text-white block text-lg">International Volunteer</strong>
+                            <span class="opacity-90">Workaway in Turkey (1 month immersion in sustainable agriculture).</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
